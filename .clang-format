@@ -1,0 +1,35 @@
+# Gnome Coding Style #
+Language: Cpp
+
+ColumnLimit: 80
+
+UseTab: Never
+IndentWidth: 2
+ContinuationIndentWidth: 2
+TabWidth: 2
+IndentPPDirectives: AfterHash
+
+BreakBeforeBraces: GNU
+AlwaysBreakAfterReturnType: AllDefinitions
+AllowShortFunctionsOnASingleLine: Empty
+BreakBeforeBinaryOperators: All
+BreakBeforeTernaryOperators: true
+ReflowComments: true
+
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignOperands: true
+AlignTrailingComments: true
+AlignEscapedNewlines: Left
+PointerAlignment: Right
+BinPackParameters: false
+BinPackArguments: false
+AllowAllParametersOfDeclarationOnNextLine: false
+PenaltyBreakBeforeFirstCallParameter: 500
+
+SpaceBeforeParens: Always
+KeepEmptyLinesAtTheStartOfBlocks: false
+
+IncludeBlocks: Regroup
+SortIncludes: true

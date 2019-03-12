@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright © 2019 Damien Flament
+// This file is part of volumed.
+
+#pragma once
+
+#undef G_LOG_DOMAIN
+#define G_LOG_DOMAIN "@PROJECT_NAME@"
+
+#cmakedefine CONTROLD_DBUS_BUS_NAME "@CONTROLD_DBUS_BUS_NAME@"
+#cmakedefine CONTROLD_DBUS_OBJECT_PATH "@CONTROLD_DBUS_OBJECT_PATH@"

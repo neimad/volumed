@@ -1,0 +1,9 @@
+[Unit]
+Description=@PROJECT_DESCRIPTION@
+
+[Service]
+Type=simple
+ExecStart=@SERVICE_EXECUTABLE@
+
+[Install]
+WantedBy=multi-user.target
